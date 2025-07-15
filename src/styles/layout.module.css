@@ -1,0 +1,22 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 96px;
+  width: 100%;
+  background-color: #5469B4;
+  border: 1px solid #000000
+}
+
+.content {
+  display: flex;
+  height: calc(100vh - 96px);
+  width: 100%;
+  background-color: #EBEBEB;
+}

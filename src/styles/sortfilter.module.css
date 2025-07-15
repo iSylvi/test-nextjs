@@ -1,0 +1,35 @@
+
+.sort-filter-section {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  gap: 39px;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section-title {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 21px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.filter-favorites {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 306px;
+  height: 182px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  padding: 23px;
+}
