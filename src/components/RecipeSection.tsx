@@ -24,7 +24,8 @@ const RecipeSection = () => {
     <div className={`${styles["recipe-section"]}`}>
       <div className={`${styles["recipe-section-container"]}`}>
         {sample.map((d) => (
-          <Recipe 
+          <Recipe
+            key={d.title}
             srcImage={d.srcImage}
             title={d.title}
             description={d.description}
